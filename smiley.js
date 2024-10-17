@@ -20,6 +20,6 @@ function smileyFace() {
     // Draw mouth
     stroke(0, 0, 0);
     strokeWeight(4);
-    arc(mouthX, mouthY, mouthWidth, mouthHeight*normVol, 0, PI);
+    arc(mouthX, mouthY, mouthWidth, mouthHeight*normVol, 0, PI, CHORD);
 
 }
