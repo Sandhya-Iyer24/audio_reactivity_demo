@@ -48,13 +48,13 @@ function draw() {
 function mousePressed() {
 
   getAudioContext().resume();
-  
+
   if (!startAudio) {
     mic = new p5.AudioIn();
     fft = new p5.FFT();
     fft.setInput(mic);
 
-    mic.start;
+    mic.start();
     startAudio = true;
   }
 }
